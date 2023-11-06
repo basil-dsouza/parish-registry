@@ -17,42 +17,42 @@ The main requirements that will shape the requirements are:
 + Steps to perform disaster recovery should be minimal and well documented
 ## Detailed Requirements
 1. Access Control
-  1. Any changes to main data store should be via authenticated and authorized users
-  1. Mechanism to grant and revoke access to users
+    1. Any changes to main data store should be via authenticated and authorized users
+    1. Mechanism to grant and revoke access to users
 1. Backup - Regular Backup of all entered data (periodic or based on data entry)
 1. Primary Demographics data (Registration Data)
-  1. Migration of existing data from Excel
-  1. Optional - Automated entry of existing filled paper forms
-  1. Data Entry Form for new entries
-    1. Suitable validation of data entered
-       + Format: Email, Date format, Telephone numbers, Post Code
-       + Relational:
-         + No contact details (phone/email) for under 18s (or under 16s?)
-         + Check against existing emails
-         + (Optional) Address validity
-    1. (Optional) Match to existing data?
+    1. Migration of existing data from Excel
+    1. Optional - Automated entry of existing filled paper forms
+    1. Data Entry Form for new entries
+        1. Suitable validation of data entered
+             + Format: Email, Date format, Telephone numbers, Post Code
+             + Relational:
+                 + No contact details (phone/email) for under 18s (or under 16s?)
+                 + Check against existing emails
+                 + (Optional) Address validity
+        1. (Optional) Match to existing data against demographics but also Sacrements
 1. Sacrements
-  1. Data Entry - See specific sacrements for the fields required
-  1. Data Linkage - Based on sacrement, combine with general demographic data
-  1. Optional - Generate Certificates - Not yet sure if this is feasible 
-  1. Sacrements - Baptism
-    1. Data Entry Fields:
-      + TODO - Capture from paper form 
-  1. Sacrements - First Holy Communion
-    1. Data Entry Fields:
-      + TODO - Capture from paper form
-  1. Sacrements - Confirmation
-    1. Data Entry Fields:
-      + TODO - Capture from paper form
-  1. Sacrements - Marriage
-    1. Data Entry Fields:
-      + TODO - Capture from paper form
-  1. Deaths
-    1. Data Entry Fields:
-      + TODO - Capture from paper form
+    1. Data Entry - See specific sacrements for the fields required
+    1. Data Linkage - Based on sacrement, combine with general demographic data
+    1. Optional - Generate Certificates - Not yet sure if this is feasible 
+    1. Sacrements - Baptism
+        1. Data Entry Fields:
+            + TODO - Capture from paper form 
+    1. Sacrements - First Holy Communion
+        1. Data Entry Fields:
+            + TODO - Capture from paper form
+    1. Sacrements - Confirmation
+        1. Data Entry Fields:
+            + TODO - Capture from paper form
+    1. Sacrements - Marriage
+        1. Data Entry Fields:
+            + TODO - Capture from paper form
+    1. Deaths
+        1. Data Entry Fields:
+            + TODO - Capture from paper form
 1. Public Registration Form
-  1. Public users can register via a form on the main website
-  1. But data should go to a "proposed" list to be reviewed
+    1. Public users can register via a form on the main website
+    1. But data should go to a "proposed" list to be reviewed
 # Proposed Solution Architecture
     This section is still work in progress
 ## Technologies
