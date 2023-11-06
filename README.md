@@ -54,7 +54,7 @@ The main requirements that will shape the requirements are:
   1. Public users can register via a form on the main website
   1. But data should go to a "proposed" list to be reviewed
 # Proposed Solution Architecture
-  This section is still work in progress
+    This section is still work in progress
 ## Technologies
 ### Service
 + Language: Java - Java 17
@@ -79,6 +79,6 @@ The main requirements that will shape the requirements are:
   + Backup Store: Email + Cloud Storage
   + OCR for existing pre-fill forms
 # Application Design Details
-  This section has still not started
+    This section has still not started
 # Operational Details
-  This section has still not started
+    This section has still not started
