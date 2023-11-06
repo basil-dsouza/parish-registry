@@ -20,7 +20,7 @@ The main requirements that will shape the requirements are:
   This section is still work in progress
 ## Technologies
 ### Service
-+ Language: Java
++ Language: Java - Java 17
 + Build Tool: Maven? (Perhaps Gradle??)
 + Framework: Spring Boot / Spring Data / ???
 ### Front End
@@ -30,9 +30,16 @@ Language: Javascript / Html / CSS
 ## Platforms
 + Source Control: Git Hub
 + Deployment: GitHub Deployments
++ Domain: demographics.<parish domain>
 + Hosting: Google Cloud  Platform
-  + Compute: Google App Engine
-  + Datastore: 
+  + Compute: Google App Engine - Standard Java Environment
+  + Datastore: Undecided - Firestore vs BigQuery 
+    + Firestore: https://cloud.google.com/firestore/pricing
+      + 1GB Storage
+      + Mongo DB like access patterns
+    + BigQuery: https://cloud.google.com/bigquery/pricing
+      + 10GB Storage
+  + Backup Store: Email + Cloud Storage
 # Application Design Details
   This section has still not started
 # Operational Details
